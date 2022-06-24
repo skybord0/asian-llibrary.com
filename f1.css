@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("file:///C:/biswa%20project/practice.html/biswa%20project/image.jpeg/siora-photography-hgFY1mZY-Y0-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+li a{
+    float: left;
+    border: 1px solid transparent;
+    border-radius: 2px;
+    transition: 0.9s ease;
+    text-transform: uppercase;
+    font-family:'Times New Roman', Times, serif;
+    font-weight:lighter;
+    
+}
+
+li a {
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    padding: 2px 23px;
+    margin: 10px;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 3px #FF0000;
+
+}
+
+li a:hover {
+    background-color:rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: 1px solid rgba(0, 255, 8, 0.918);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+}
+.logIn {
+    position: absolute;
+    right: 10px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    top: 10px;
+    animation: mymove 3s infinite;
+}
+@keyframes mymove{
+    50%{text-shadow: 2px 2px 4px red, 4px 4px 8px rgb(255, 255, 255) ;}
+    
+}
+
+.box1{
+    position: absolute;
+    top: 150px;
+    left: 200px;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-size: 21px;
+    text-shadow: 5px 5px 10px #000000, 5px 5px 10px #004cff;
+}
+
+.box2 {
+    position: absolute;
+    top: 210px;
+    left: 215px;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-size: 15px;
+    text-shadow: 5px 5px 10px #ffffff, 5px 5px 10px #ff0707;
+}
+
+.button  {
+    position: absolute;
+    top: 280px;
+    left: 380px;
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+    font-size: 30px;
+    text-shadow: 4px 4px 8px black;
+    border: 1px solid rgb(126, 92, 92);
+    background-color: red;
+    border-width: 5px;
+    border-radius: 10px 0 10px  0;
+    border-style: inset;
+}
+p {
+    position: fixed;
+    top: 285px;
+    right: 450px;
+    text-align: center;
+    font-size: 30px;
+}
+

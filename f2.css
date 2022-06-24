@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("file:///C:/biswa%20project/dariusz-sankowski-dvK_CT1Wg78-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh; 
+}
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+li a{
+    float: left;
+    border: 1px solid transparent;
+    border-radius: 2px;
+    transition: 0.9s ease;
+    text-transform: uppercase;
+    font-family:'Times New Roman', Times, serif;
+    font-weight:lighter;
+    
+}
+
+li a {
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    padding: 2px 23px;
+    margin: 10px;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 3px #FF0000;
+
+}
+
+li a:hover {
+    background-color:rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: 1px solid rgba(0, 255, 8, 0.918);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+}
+
+form {
+    position: absolute;
+    top: 200px;
+    left: 350px;
+    border: 5px solid rgb(104, 105, 103);
+    border-style: outset;
+    border-radius: 20px 0 20px 0;
+    height: auto;
+    width: 300px;
+    text-align: center;
+}
+h2 {
+    color: white;
+    text-shadow: 4px 4px 6px rgb(0, 0, 0);
+    text-align: center;
+    
+}

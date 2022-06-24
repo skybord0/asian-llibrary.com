@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("file:///C:/Users/aaa/Pictures/html%20practice/library/patrick-fore-0gkw_9fy0eQ-unsplash%20(2).jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+li a{
+    float: left;
+    border: 1px solid transparent;
+    border-radius: 2px;
+    transition: 0.9s ease;
+    text-transform: uppercase;
+    font-family:'Times New Roman', Times, serif;
+    font-weight:lighter;
+    
+}
+
+li a {
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    padding: 2px 23px;
+    margin: 10px;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 3px #FF0000;
+
+}
+
+li a:hover {
+    background-color:rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: 1px solid rgba(0, 255, 8, 0.918);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+}
+form {
+    color: white;
+    text-align:center;
+    
+    font-family:'Times New Roman', Times, serif;
+    font-size:larger;
+}
+fieldset {
+    position: absolute;
+    top: 60px;
+    left: 50px;
+    width: 300px;
+    height: auto;
+    border-radius: 20px 0 20px 0;
+    border-style: outset;
+    border-width: 7px;
+    border-color: gray;
+}
